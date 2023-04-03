@@ -11,8 +11,53 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+#datetime-picker {
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: bold;
+  font-size: large;
+  padding: 20px 15px;
+  width: 200px;
+  height: 40px;
+  margin: 20px;
+}
 
+button {
+  width: 130px;
+  height: 40px;
+  color: black;
+  margin: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
 img {
   display: block;
   max-width: 100%;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.value {
+  font-size: xxx-large;
+}
+
+.label {
+  font-weight: bold;
+  text-transform: uppercase;
 }
